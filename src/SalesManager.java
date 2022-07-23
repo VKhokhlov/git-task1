@@ -17,7 +17,7 @@ public class SalesManager {
         return max;
     }
 
-    public int stat() {
+    public long stat() {
         if (sales.length <= 2) {
             return 0;
         }
